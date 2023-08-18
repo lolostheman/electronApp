@@ -1,0 +1,56 @@
+footer {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-color: beige;
+}
+.dir-select {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+  padding-bottom: 10%;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.dir-select {
+  text-align: center;
+}
+#zero-tier-div {
+  padding-top: 10%;
+  text-align: center;
+}
+#refresh-btn {
+  position: absolute;
+  right: 10px;
+  top:5px;
+  text-align: right;
+}

@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link rel="stylesheet" href="./main.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Super Smash Bros with Yuzu & ZeroTier installation</title>
+  </head>
+  <body>
+    <button type="button" id="refresh-btn">Refresh Page</button>
+    <div id="zero-tier-div">
+      <h5 id="yuzu-installation"></h5>
+      <h5 id="zero-tier-instalation"></h5>
+    </div>
+    <div id="dir-select" class="dir-select">
+      <button type="button" id="rom-btn" class="button button1">Open Rom Directory</button>
+      File path: <strong id="RomfilePath">undefiend</strong>
+    </div>
+
+
+    <!-- <div id="dir-select">
+      <button type="button" id="yuzu-btn">Open Yuzu Directory</button>
+      File path: <strong id="YuzufilePath"></strong>
+    </div> -->
+
+    <button type="button" id="submit-btn">Submit Directory Locations</button>
+    <footer>
+      <p id="node-version">Node: </p>
+      <p id="chrome-version">Chrome: </p>
+      <p id="electron-version">Electron: </p>
+    </footer>
+    <script src='./renderer.js'></script>
+  </body>
+  
+</html>
